@@ -13,7 +13,7 @@ module.exports = {
         .addStringOption((option) =>
             option
                 .setName("code")
-                .setDescription("The code to be executed.")
+                .setDescription("Code directly from discord!")
                 .setRequired(true)
         ),
     options: {
